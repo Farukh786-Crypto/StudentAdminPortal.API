@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Newtonsoft.Json.Serialization;
 using StudentAdminPortal.API.DAL;
 using StudentAdminPortal.API.Repositeries;
 using System;
@@ -29,8 +30,22 @@ namespace StudentAdminPortal.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Add NewtonSoft here
+            services.AddControllers().AddNewtonsoftJson(options =>
+            {
+                options.SerializerSettings.ContractResolver = new DefaultContractResolver();
+            });
+
+            services.AddCors(o => o.AddPolicy("angularApplications", builder =>
+            {
+                builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
+
+            }));
 
             services.AddControllers();
+            // Add DbContext
             services.AddDbContext<StudentAdminContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("StudentAdminPortalDb"))
             );
@@ -56,6 +71,8 @@ namespace StudentAdminPortal.API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors("angularApplications");
 
             app.UseAuthorization();
 
