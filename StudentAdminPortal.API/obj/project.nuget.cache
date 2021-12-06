@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FcZoh/T2F2rZZoRL4V9N7D3HrI3Ha7M0vYnPK9ontvOj7IZ6cxk51v5uW7Q134JN4LIsB5c2Feyh/+ZRXSTCbg==",
+  "dgSpecHash": "TvrdkI6LZ8Rf6Pd1Hig1UclbNzPJLF7Mv5FvbW56dn898XZK2SjMCNnOHnppGBsnZBMs4ce4jyO1JF1VyGtwOA==",
   "success": true,
-  "projectFilePath": "D:\\MVC core with Angular\\student Admin Portal web application\\Source code with Me\\Section 4\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj",
+  "projectFilePath": "D:\\MVC core with Angular\\student Admin Portal web application\\Source code with Me\\Section 5\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ULTIMATE\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ULTIMATE\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

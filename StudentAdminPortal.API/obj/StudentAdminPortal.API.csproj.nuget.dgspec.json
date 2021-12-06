@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MVC core with Angular\\student Admin Portal web application\\Source code with Me\\Section 4\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj": {}
+    "D:\\MVC core with Angular\\student Admin Portal web application\\Source code with Me\\Section 5\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj": {}
   },
   "projects": {
-    "D:\\MVC core with Angular\\student Admin Portal web application\\Source code with Me\\Section 4\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj": {
+    "D:\\MVC core with Angular\\student Admin Portal web application\\Source code with Me\\Section 5\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MVC core with Angular\\student Admin Portal web application\\Source code with Me\\Section 4\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj",
+        "projectUniqueName": "D:\\MVC core with Angular\\student Admin Portal web application\\Source code with Me\\Section 5\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj",
         "projectName": "StudentAdminPortal.API",
-        "projectPath": "D:\\MVC core with Angular\\student Admin Portal web application\\Source code with Me\\Section 4\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj",
+        "projectPath": "D:\\MVC core with Angular\\student Admin Portal web application\\Source code with Me\\Section 5\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj",
         "packagesPath": "C:\\Users\\ULTIMATE\\.nuget\\packages\\",
-        "outputPath": "D:\\MVC core with Angular\\student Admin Portal web application\\Source code with Me\\Section 4\\StudentAdminPortal.API\\StudentAdminPortal.API\\obj\\",
+        "outputPath": "D:\\MVC core with Angular\\student Admin Portal web application\\Source code with Me\\Section 5\\StudentAdminPortal.API\\StudentAdminPortal.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
