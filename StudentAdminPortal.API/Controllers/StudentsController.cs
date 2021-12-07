@@ -62,5 +62,17 @@ namespace StudentAdminPortal.API.Controllers
             return NotFound();
 
         }
+        [HttpDelete("{studentId:guid}")]
+        public async Task<IActionResult> DeleteStudentAsync([FromRoute] Guid studentId)
+        {
+            if (await studentRepository.Exists(studentId))
+            {
+                // Delete the Student
+                var student = await studentRepository.DeleteStudentAsync(studentId);
+                return Ok(mapper.Map<StudentDTO>(student));
+            }
+            return NotFound();
+        }
+
     }
 }
