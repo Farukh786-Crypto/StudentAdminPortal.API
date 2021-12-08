@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = StudentAdminPortal.API
-build_property.ProjectDir = D:\MVC core with Angular\student Admin Portal web application\Source code with Me\Section 6\StudentAdminPortal.API\StudentAdminPortal.API\
+build_property.ProjectDir = D:\MVC core with Angular\student Admin Portal web application\Source code with Me\Section 7\StudentAdminPortal.API\StudentAdminPortal.API\

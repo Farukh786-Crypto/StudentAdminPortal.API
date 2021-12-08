@@ -35,7 +35,12 @@ namespace StudentAdminPortal.API.Repositeries
         {
            return await context.Student.AnyAsync(a=>a.Id== studentId);
         }
-
+        public async Task<Student> AddStudentAsync(Student request)
+        {
+            var student = await context.Student.AddAsync(request);
+            await context.SaveChangesAsync();
+            return student.Entity;
+        }
         public async Task<Student> UpdateStudent(Guid studentId, Student request)
         {
             var existingStudent = await GetStudentAsync(studentId);
@@ -55,7 +60,6 @@ namespace StudentAdminPortal.API.Repositeries
             }
             return null;
         }
-
         public async Task<Student> DeleteStudentAsync(Guid studentId)
         {
             var student =await GetStudentAsync(studentId);
